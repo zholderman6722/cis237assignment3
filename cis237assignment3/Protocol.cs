@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace cis237assignment3
 {
-    class Program
+    class Protocol : Droid
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello and welcome to Droid Builder!");
-        }
+        protected bool some1;
+        protected bool some2;
+        protected bool some3;
     }
 }
