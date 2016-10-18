@@ -10,7 +10,10 @@ namespace cis237assignment3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello and welcome to Droid Builder!");
+            
+            Userinterface ui = new Userinterface();
+            DroidCollection droids = new DroidCollection(50);
+            ui.DisplayMenu();
         }
     }
 }

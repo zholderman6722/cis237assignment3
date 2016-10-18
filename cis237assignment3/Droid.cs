@@ -38,7 +38,7 @@ namespace cis237assignment3
         }
         public override string ToString()
         {
-            return "material: " + _material + Environment.NewLine + "model: " + _model + Environment.NewLine + "color: " + _color;
+            return "material: " + _material + Environment.NewLine + "model: " + _model + Environment.NewLine + "color: " + _color + Environment.NewLine;
         }
         public abstract void CalculateTotalCost();
 

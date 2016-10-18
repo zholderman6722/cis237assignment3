@@ -29,11 +29,11 @@ namespace cis237assignment3
             string janitorialFeatures= base.ToString();
             if (_trashCompactor)
             {
-                janitorialFeatures += "trash Compactor: " + _trashCompactor;
+                janitorialFeatures += "trash Compactor: " + _trashCompactor + Environment.NewLine;
             }
             if (_vacuum)
             {
-                janitorialFeatures += "vacuum: " + _vacuum;
+                janitorialFeatures += "vacuum: " + _vacuum + Environment.NewLine;
             }
             return janitorialFeatures;
         }

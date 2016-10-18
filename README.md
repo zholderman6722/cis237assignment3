@@ -119,4 +119,6 @@ Referenced assignment 1 and inclass3
 https://msdn.microsoft.com/en-us/library/bb397677.aspx
 
 ## Known Problems, Issues, And/Or Errors in the Program
-Don't have UI class, main hasn't been coded yet, and droidcollection hasn't been created yet
+UI class is still a mess, main hasn't been coded yet, 
+Droid Collection needs work, Add and Printing the List needs work, totalCost needs work
+(Overwhelmingly busy week...Sorry...)
