@@ -36,12 +36,30 @@ namespace cis237assignment3
                 _totalCost = value;
             }
         }
+        public override string ToString()
+        {
+            return "material: " + _material + Environment.NewLine + "model: " + _model + Environment.NewLine + "color: " + _color;
+        }
         public abstract void CalculateTotalCost();
 
         //CalculateBaseCost: Determines the baseCost based on material and type.
-        public virtual void CalculateBaseCost()
+        protected virtual void CalculateBaseCost(string material, int userChoice)
         {
-                
+            if (userChoice == 1)
+            {
+                material = "titanium";
+                _baseCost = 200;
+            }
+            if (userChoice == 2)
+            {
+                material = "steel";
+                _baseCost = 150;
+            }
+            if (userChoice == 3)
+            {
+                material = "Iron";
+                _baseCost = 100;
+            }
         }
 
 

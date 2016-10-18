@@ -1,7 +1,7 @@
 # Assignment 3 - Inheritance, Abstract Classes, Interfaces, and Polymorphism
 ## Due: 10-18-2016
 
-## Author
+## Zachery Holderman
 
 
 
@@ -114,7 +114,9 @@ It may be beneficial for you to create extra methods within the droid sub classe
 | Total                      | 100    |
 
 ## Outside Resources Used
-
-
+http://csharp-station.com/Tutorial/CSharp/Lesson04
+Referenced assignment 1 and inclass3
+https://msdn.microsoft.com/en-us/library/bb397677.aspx
 
 ## Known Problems, Issues, And/Or Errors in the Program
+Don't have UI class, main hasn't been coded yet, and droidcollection hasn't been created yet

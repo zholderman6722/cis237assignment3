@@ -8,8 +8,17 @@ namespace cis237assignment3
 {
     class Protocol : Droid
     {
-        protected bool some1;
-        protected bool some2;
-        protected bool some3;
+        protected int _numofLanguages;
+        protected const decimal _costperLanguage = 10;
+
+        public Protocol(string material, string model, string color, int numofLanguages)
+            : base(material, model, color)
+        {
+            _numofLanguages = numofLanguages;
+        }
+        public override void CalculateTotalCost()
+        {
+          
+        }
     }
 }
